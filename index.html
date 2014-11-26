@@ -1,0 +1,51 @@
+<!DOCTYPE html>  
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">  
+<html>
+<head><title>TicTacToeGame</title>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<script type="text/javascript" src="scripts/scripts.js">
+    
+</script>
+</head>
+<body>
+
+<div align="center">
+<div style="font-size:24px;padding:5px;"><b>TicTacToe</b></div>
+<div style="font-size:16px;text-align:center;padding:5px;">Classic TicTacToe Game</div>
+<center>
+<form name="game">
+<div style="background:#336699;color:#fff;font-size:14px;font-weight:bold;padding:5px;">
+    <span>You</span><span><input value="0" size="5" name="you" type="text"></span>
+    <span>Computer</span><span><input value="0" size="5" name="computer" type="text"></span>
+    <span>Ties</span><span><input value="0" size="5" name="ties" type="text"></span>
+</div>
+<table border="0">
+<tbody><tr><td>
+<table border="1">
+<tbody><tr>
+<td><a href="javascript:yourChoice('A')"><img src="images/blank.jpg" name="A" alt="Top-Left" width="100" border="0" height="100"></a></td>
+<td><a href="javascript:yourChoice('B')"><img src="images/blank.jpg" name="B" alt="Top-Center" width="100" border="0" height="100"></a></td>
+<td><a href="javascript:yourChoice('C')"><img src="images/blank.jpg" name="C" alt="Top-Right" width="100" border="0" height="100"></a></td>
+</tr>
+<tr>
+<td><a href="javascript:yourChoice('D')"><img src="images/blank.jpg" name="D" alt="Middle-Left" width="100" border="0" height="100"></a></td>
+<td><a href="javascript:yourChoice('E')"><img src="images/blank.jpg" name="E" alt="Middle-Center" width="100" border="0" height="100"></a></td>
+<td><a href="javascript:yourChoice('F')"><img src="images/blank.jpg" name="F" alt="Middle-Right" width="100" border="0" height="100"></a></td>
+</tr>
+<tr>
+<td><a href="javascript:yourChoice('G')"><img src="images/blank.jpg" name="G" alt="Bottom-Left" width="100" border="0" height="100"></a></td>
+<td><a href="javascript:yourChoice('H')"><img src="images/blank.jpg" name="H" alt="Bottom-Center" width="100" border="0" height="100"></a></td>
+<td><a href="javascript:yourChoice('I')"><img src="images/blank.jpg" name="I" alt="Bottom-Right" width="100" border="0" height="100"></a></td>
+</tr>
+</tbody></table>
+</td>
+</tr></tbody></table>
+<input value="Play Again" onclick="playAgain();" type="button" class="button_play">
+
+<input value="Game Help" onclick="help();" type="button" class="button_help">
+</form>
+</center>
+</div>
+<div align="center"><span class="style1" style="color:#666666">by pradeep singh</span></div>
+</body>
+</html>
